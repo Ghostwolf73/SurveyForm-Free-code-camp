@@ -1,0 +1,80 @@
+body{
+    text-align: center;
+    background-image: url(./images/4191547.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+
+#title{
+    color: yellow;
+    font-weight: bolder;
+}
+
+#description{
+    color: yellow;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+#survey-form{
+    align-items: center;
+    background-color: goldenrod;
+    margin-left: 25%;
+    margin-right: 25%;
+    opacity: 0.9;
+
+}
+
+#name{
+    width: 60%;
+    border-radius: 3px;
+    border-style: dotted;
+    margin-bottom: 5%;
+    margin-top: 1%;
+
+}
+
+#email{
+    border-radius: 3px;
+    width: 60%;
+    border-style: dotted;
+    margin-bottom: 5%;
+    margin-top: 1%;
+
+}
+
+#number{
+    width: 60%;
+    border-radius: 3px;
+    border-style: dotted;
+    margin-bottom: 5%;
+    margin-top: 1%;
+
+}
+
+#dropdown{
+    width: 61%;
+    border-radius: 3px;
+    border-style: dotted;
+    margin-bottom: 5%;
+    margin-top: 1%;
+}
+
+#submit{
+    width: 60%;
+    border-radius: 3px;
+    border-style: dotted;
+    background-color: skyblue;
+    margin-bottom: 5%;
+    margin-top: 1%;
+}
+
+#comment{
+    width: 60%;
+    border-style: dotted;
+    margin-bottom: 5%;
+    
+}

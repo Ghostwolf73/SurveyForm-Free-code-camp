@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title">One Piece survey form</h1>
+    <p id="description">This is a survey for one piece fans</p>
+
+    <form id="survey-form">
+        <label for="name" id="name-label">Name</label><br>
+        <input type="text" required id="name" name="name" placeholder="Enter your name"><br>
+
+        <label for="email" id="email-label">Email</label><br>
+        <input type="email" required id="email" name="email" placeholder="Enter your email"><br>
+
+        <label for="number" id="number-label">Age(optional)</label><br>
+        <input type="number" id="number" name="number" placeholder="Age" min="12" max="100"><br>
+
+        <label for="dropdown">Select your role in the ship</label><br>
+        <select name="role" id="dropdown" required>
+            <option value="">Select your role</option>
+            <option value="navigator">navigator</option>
+            <option value="musician">musician</option>
+            <option value="shipwright">shipwright</option>
+            <option value="sniper">sniper</option>
+            <option value="doctor">doctor</option>
+            <option value="cook">cook</option>
+          </select><br>
+        
+        <label for="recommend">Would you recommend this to your friend?</label><br>
+        <input type="radio" name="recommend" id="yes" value="yes">
+        <label for="yes">Yes definitely</label><br>
+        <input type="radio" name="recommend" id="no" value="no">
+        <label for="no">No</label><br>
+        <input type="radio" name="recommend" id="notSure" value="notSure">
+        <label for="notSure">Not sure</label><br>
+
+        <label for="weapons">Which of these do you have(check all that you have)</label><br>
+        <input type="checkbox" name="weapons" id="weapons" value="sword">
+        <label for="weapons">sword</label><br>
+        <input type="checkbox" name="weapons" id="weapons" value="gun">
+        <label for="weapons">gun</label><br>
+        <input type="checkbox" name="weapons" id="weapons" value="rod">
+        <label for="weapons">rod</label><br>
+        <input type="checkbox" name="weapons" id="weapons" value="sling">
+        <label for="weapons">sling shot</label><br>
+        <input type="checkbox" name="weapons" id="weapons" value="DF">
+        <label for="weapons">Devil fruit</label><br>
+
+        <p>Do you have any comments?</p><br>
+        <textarea rows="5" cols="30" placeholder="enter optional message" id="comment"></textarea><br>
+
+        <input type="submit" value="submit" id="submit">
+    </form>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
